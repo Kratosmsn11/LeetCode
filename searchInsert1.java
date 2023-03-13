@@ -1,6 +1,6 @@
 public class searchInsert1 {
     public int searchInsert(int[] nums, int target) {
-        // this solution is for O(log n) using binary search with a recursive approach
+        // this solution is for O(log n) using binary search with an iterative approach.
         int low = 0;
         int high = nums.length - 1;
 
