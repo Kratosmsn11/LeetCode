@@ -1,7 +1,5 @@
-import java.util.ArrayList;
-
-public class removeDuplicatesFromSortedArray {
-    public int main(int[] nums) {
+class Solution {
+    public int removeDuplicates(int[] nums) {
         int k = 0;
         ArrayList<Integer> al = new ArrayList<>();
 
