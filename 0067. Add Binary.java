@@ -1,11 +1,11 @@
 class Solution {
     public String addBinary(String a, String b) {
-        if(b.length() > a.length()) addBinary(b,a);
+        if(b.length() > a.length()) return addBinary(b,a);
 
         StringBuilder sba = new StringBuilder(a);
         StringBuilder sbb = new StringBuilder(b);
-        sba = sba.reverse(); // 11 
-        sbb = sbb.reverse(); // 1
+        sba = sba.reverse();
+        sbb = sbb.reverse();
 
         while(sba.length() != sbb.length()){
             sbb.append('0');
