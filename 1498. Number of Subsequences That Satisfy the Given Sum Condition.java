@@ -1,3 +1,4 @@
+// General Explanation
 // int result = 0
 // sort nums
 // left = 3
@@ -5,6 +6,7 @@
 // do a binary search in the with the remaining elements in nums to find the integer that is less than or equal to x
 // left = 3, right = 6 i.e. if(left + right <= target) result++;
 
+// Examples for the approach used.
 // possible subsets => [3], [3, 5], [3, 5, 6] & [3, 6].
 
 // example [3, 4, 5, 6, 7]
