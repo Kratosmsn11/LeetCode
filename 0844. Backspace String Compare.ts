@@ -19,6 +19,4 @@ function backspaceCompare(s: string, t: string): boolean {
     }
 
     return first.join("") === second.join("");
-
-    return true;
 };
